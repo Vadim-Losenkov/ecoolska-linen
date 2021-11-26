@@ -29,12 +29,12 @@ body {
 
 .linenBorder-top {
   padding-top: 16px;
-  border-top: 2px solid #544D46;
+  border-top: 2px solid #544d46;
 }
 
 .linenBorder-bottom {
   padding-bottom: 16px;
-  border-bottom: 2px solid #544D46;
+  border-bottom: 2px solid #544d46;
 }
 
 .linenTitle {
@@ -44,11 +44,18 @@ body {
   font-size: 40px;
   line-height: 40px;
   /* or 100% */
-  color: #544D46;
+  color: #544d46;
+}
+.linenSubTitle {
+  font-family: Proba Pro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 34px;
+  color: #544d46;
 }
 
 .linenMainTitle {
-
   font-family: Proba Pro;
 
   font-style: normal;
@@ -59,8 +66,7 @@ body {
 
   text-transform: uppercase;
 
-  color: #544D46;
-
+  color: #544d46;
 }
 
 .linenText {
@@ -69,5 +75,14 @@ body {
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
-  color: #544D46;
+  color: #544d46;
+}
+
+.linenBigText {
+  font-family: Proba Pro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 34px;
+  color: #544d46;
 }
