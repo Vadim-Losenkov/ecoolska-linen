@@ -1,0 +1,73 @@
+.linenContainer {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.linen {
+  font-family: Proba Pro;
+  overflow-x: hidden;
+}
+
+a {
+  display: inline-block;
+}
+
+button {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 30px;
+}
+
+body {
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.linenBorder-top {
+  padding-top: 16px;
+  border-top: 2px solid #544D46;
+}
+
+.linenBorder-bottom {
+  padding-bottom: 16px;
+  border-bottom: 2px solid #544D46;
+}
+
+.linenTitle {
+  font-family: Proba Pro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+  /* or 100% */
+  color: #544D46;
+}
+
+.linenMainTitle {
+
+  font-family: Proba Pro;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 45px;
+  /* identical to box height, or 100% */
+
+  text-transform: uppercase;
+
+  color: #544D46;
+
+}
+
+.linenText {
+  font-family: Proba Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #544D46;
+}

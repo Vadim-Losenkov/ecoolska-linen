@@ -1,0 +1,63 @@
+@import "fonts";
+@import "vars";
+@import "mixins";
+@import "global";
+@import "libs";
+
+.linen {
+  &__top {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding: 20px;
+    height: 577px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+  }
+  &__top-text {
+    max-width: 1070px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 80px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  &__old {
+    margin-bottom: 150px;
+  }
+  &__old-title__wrapper {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  &__old-title {
+    max-width: 995px;
+  }
+  &__old-inner {
+    display: flex;
+    max-height: 504px;
+    justify-content: space-between;
+  }
+  &__old-box {
+    margin-left: 32px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@import "media";
