@@ -104,6 +104,9 @@
 }
 
 @media (max-width: 768px) {
+  .linen__top {
+    height: 350px;
+  }
   .linenMainTitle {
     font-size: 32px;
     line-height: 38px;
@@ -151,6 +154,9 @@
 }
 
 @media (max-width: 500px) {
+  .linen__top {
+    height: 300px;
+  }
   .linen__top-text {
     font-size: 32px;
   }
