@@ -14,6 +14,10 @@
     margin: 0;
     justify-content: center;
   }
+  
+  .linen__about-info {
+    padding: 0;
+  }
 }
 @media (max-width: 900px) {
   .linen__top-text {
@@ -34,14 +38,79 @@
     min-width: auto;
     margin: 0;
   }
+  
+  .linen__but-image {
+    // display: none;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0;
+    width: 100%;
+    min-width: auto;
+    margin-bottom: 32px;
+  }
+  .linen__but-inner {
+    display: block;
+  }
+  .linen__but-box {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+  
+  .linen__info-inner {
+    flex-direction: column;
+  }
+  .linen__info-box {
+    max-width: 100%;
+  }
+  .linen__info-box:first-child {
+    max-width: 100%;
+    margin: 0;
+  }
+  .linen__info-box:last-child {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    .linen__info-title {
+      order: -1;
+      margin-bottom: 32px;
+    }
+  }
+  
+  .linen__about-info {
+    display: block;
+  }
+  .linen__about-info__text {
+    max-width: 100%;
+    margin-bottom: 32px;
+  }
+  .linen__about-head {
+    display: block;
+  }
+  .linen__about-text {
+    width: 100%;
+    max-width: 100%!important;
+  }
+  
+  .linen__gallery-title {
+    span:last-child {
+      margin-left: 60px;
+    }
+    span:nth-child(2) {
+      margin-left: 30px;
+    }
+  }
 }
 
 @media (max-width: 768px) {
   .linenMainTitle {
     font-size: 32px;
+    line-height: 38px;
   }
   .linenTitle {
     font-size: 28px;
+    line-height: 32px;
   }
   .linenBigText {
     font-size: 20px;
@@ -51,7 +120,10 @@
   .linen__old,
   .linen__testimonials,
   .linen__eco,
-  .linen__production {
+  .linen__production,
+  .linen__info,
+  .linen__about,
+  .linen__but {
     margin-bottom: 100px;
   }
   .linen__old-inner {
@@ -87,5 +159,13 @@
   }
   .linenTitle {
     font-size: 26px;
+  }
+  .linen__gallery-title {
+    span:last-child {
+      margin-left: 0;
+    }
+    span:nth-child(2) {
+      margin-left: 0;
+    }
   }
 }
